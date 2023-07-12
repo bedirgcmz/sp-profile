@@ -1,0 +1,25 @@
+.my-brand {
+  background-color: #21e3cb;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 27px;
+  color: white !important;
+  font-weight: 700;
+}
+.my-navbar {
+  background-color: #f6fff8 !important;
+}
+.nav-link {
+  border-bottom: 2px solid #f6fff8 !important;
+  color: #a09b9b !important;
+  font-weight: 600 !important;
+}
+.nav-link:hover {
+  border-bottom: 2px solid #21e3cb !important;
+}
+.active {
+  color: #21e3cb !important;
+}
