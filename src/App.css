@@ -2,11 +2,12 @@
   width: 45%;
   margin: auto;
   border: 4px solid #21e3cb;
+  border-radius: 10px;
   background-color: #21e3cb;
   margin-top: 4rem;
   margin-bottom: 5rem;
 }
-.bg-imagee {
+/* .bg-imagee {
   width: 100%;
   z-index: 22;
   height: 32vh;
@@ -16,15 +17,15 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} */
 
-.photo-container {
+/* .photo-container {
   height: 60vh;
   width: 100%;
   display: flex;
   align-items: center;
-}
-.photos {
+} */
+/* .photos {
   background-position: center;
   background-size: cover;
   display: flex;
@@ -34,7 +35,4 @@
   height: 300px;
   margin-right: 0;
   -webkit-box-reflect: below 0.01px linear-gradient(transparent, transparent, #0006);
-}
-.swiper-container {
-  height: 50vh;
-}
+} */

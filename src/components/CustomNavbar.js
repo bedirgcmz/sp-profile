@@ -52,7 +52,7 @@ const CustomNavbar = () => {
           </NavItem>
           <NavItem>
             <NavLink
-              href="#"
+              href="#experiances"
               active={activeLink === "Experiences"}
               onClick={() => handleLinkClick("Experiences")}
             >
@@ -61,7 +61,7 @@ const CustomNavbar = () => {
           </NavItem>
           <NavItem>
             <NavLink
-              href="#"
+              href="#educations"
               active={activeLink === "Educations"}
               onClick={() => handleLinkClick("Educations")}
             >

@@ -1,25 +1,26 @@
-.dashboard {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-}
 svg {
   width: 95px;
   height: 85px;
   margin: 0.2rem 0.5rem 0 0.5rem;
 }
-/* .kurdish {
-  background-color: #7db9b6 !important;
+
+.progress-container:hover {
+  transform: scale(1.2);
 }
-.turkish {
-  background-color: #66cd9d !important;
+.progress-container .icon-img {
+  transition: all 1s ease-in-out;
+  cursor: pointer;
 }
-.swedish {
-  background-color: #efcb61 !important;
+.progress-container:hover .icon-img {
+  transform: rotate(360deg) scale(1.2);
+  -webkit-transform: rotate(360deg) scale(1.2);
 }
-.english {
-  background-color: #e57d87 !important;
-} */
+@media screen and (max-width: 572px) {
+  .progress-container {
+    flex: 0 0 auto !important;
+    width: 50% !important;
+  }
+}
 .bgr {
   fill: none;
   stroke-width: 10px;

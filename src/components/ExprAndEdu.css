@@ -1,0 +1,62 @@
+.fa-thumbtack {
+  top: -14px;
+  left: 13px;
+  rotate: 27deg;
+  z-index: 9999;
+  color: #037c94;
+}
+.card-date {
+  border-radius: 10px;
+  background-color: #808080b3;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  height: 24px;
+  line-height: 15px;
+  color: white;
+}
+.card-header,
+.card-title,
+.card-text {
+  color: gray !important;
+  text-align: justify;
+}
+.card-header i {
+  color: #21e3cb;
+}
+.card-content:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: #21e3cb;
+}
+.card-content:hover .card-date {
+  color: gray;
+  background-color: #ffffff;
+}
+.card-content:hover .fa-building {
+  color: #e91e63;
+}
+.card-content:hover .card-text {
+  color: rgb(255, 255, 255) !important;
+}
+.card-content:hover .card-title {
+  color: rgb(255, 255, 255) !important;
+}
+.card-content:hover .card-header {
+  color: #e91e63 !important;
+}
+.work-experience-card:hover > .fa-thumbtack {
+  color: #e91e63 !important;
+}
+.education-card:hover > .fa-thumbtack {
+  color: #e91e63 !important;
+}
+.card-content .card-title i {
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+.card-content:hover .card-title i {
+  transform: rotate(360deg) scale(1.5);
+  -webkit-transform: rotate(360deg) scale(1.5);
+}
+.card-body {
+  min-height: 250px;
+}

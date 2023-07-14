@@ -1,10 +1,3 @@
-/* .header-container {
-  width: 90%;
-  height: 56vh;
-  margin: auto;
-  margin-top: 130px;
-  z-index: 333;
-} */
 .header-pc-bg {
   width: 100%;
   height: 79vh;
@@ -12,13 +5,13 @@
   z-index: -3;
   opacity: 0.6;
 }
-.header-mobil-bg {
-  display: none;
-  width: 100%;
-  height: 76vh;
+.wave {
   position: absolute;
-  z-index: -1;
-  opacity: 0.6;
+  width: 30rem;
+  right: 32%;
+  top: 31%;
+  z-index: -3;
+  opacity: 0.4;
 }
 .shape-1,
 .shape-2,
@@ -45,7 +38,7 @@
 }
 .shape-2 {
   top: -48px;
-  left: 68%;
+  right: -4%;
   background-color: #21e2ca4a;
   width: 110px;
   height: 110px;
@@ -89,12 +82,6 @@
 }
 
 .bg-image-wave {
-  /* background: url(../images/bg-image.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  */
   width: 100%;
   height: 76vh;
   position: absolute;
@@ -127,8 +114,8 @@
   z-index: 1;
 }
 .image-1 {
-  width: 322px;
-  height: 262px;
+  width: 304px;
+  height: 229px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -164,40 +151,18 @@
 .job {
   font-size: 20px;
 }
-@media screen and (max-width: 900px) {
-  .slogan {
-    position: absolute;
-    font-size: 20px;
-    left: 22%;
-    width: 236px;
-  }
-  .my-photo {
-    width: 204px;
-    height: 253px;
-  }
-  .job {
-    font-size: 17px;
-  }
-  .name {
-    font-size: 2.2rem;
-  }
-}
-@media screen and (max-width: 600px) {
+@media (max-width: 480px) {
   .header-container {
     flex-direction: column;
     justify-content: start;
     align-items: start;
   }
-  .header-pc-bg {
-    display: none;
-  }
-  .header-mobil-bg {
-    display: block;
-    width: 100%;
-    height: 76vh;
+  .wave {
+    /* width: 200px;
     position: absolute;
-    z-index: -1;
-    opacity: 0.6;
+    bottom: 0;
+    right: 0; */
+    display: none;
   }
   .image-1 {
     width: 164px;
@@ -206,9 +171,9 @@
   .slogan {
     position: absolute;
     font-size: 20px;
-    left: 36%;
+    left: 31%;
     width: 236px;
-    top: 44%;
+    top: 42%;
   }
   .my-photo {
     margin-top: 7%;
@@ -217,7 +182,7 @@
     margin-left: 7%;
   }
   .name-container {
-    margin: -16px 0 0 -2%;
+    margin: -16px 0 0 -1%;
   }
   .name {
     width: 215px;
@@ -226,20 +191,160 @@
   .job {
     font-size: 14px;
   }
-  .shape-1,
-  .shape-2,
-  .shape-3,
-  .shape-4,
-  .shape-5,
-  .shape-6,
-  .shape-7,
-  .image-1 {
-    display: none;
+  .shape-1 {
+    width: 80px;
+    height: 80px;
+  }
+  .shape-2 {
+    width: 95px;
+    height: 95px;
+    right: -9%;
+  }
+  .shape-3 {
+    top: 25%;
+    left: 68%;
+    width: 70px;
+    height: 70px;
+  }
+  .shape-4 {
+    width: 45px;
+    height: 45px;
+    border: 7px solid #21e2ca4a;
+  }
+  .shape-5 {
+    top: 40%;
+    left: 46%;
+    width: 55px;
+    height: 55px;
   }
 }
-
-/* font-family: 'Acme', sans-serif;
-font-family: 'Bad Script', cursive;
-font-family: 'Courgette', cursive;
-font-family: 'Lobster', cursive;
-font-family: 'Righteous', cursive; */
+@media (min-width: 481px) and (max-width: 767px) {
+  .header-container {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .wave {
+    display: none;
+  }
+  .image-1 {
+    width: 164px;
+    height: 140px;
+  }
+  .slogan {
+    position: absolute;
+    font-size: 20px;
+    left: 48%;
+    width: 236px;
+    top: 42%;
+  }
+  .my-photo {
+    margin-top: 4%;
+    width: 154px;
+    height: 190px;
+    margin-left: 7%;
+  }
+  .name-container {
+    margin: -16px 0 0 -1%;
+  }
+  .name {
+    width: 215px;
+    font-size: 29px;
+  }
+  .job {
+    font-size: 14px;
+  }
+  .shape-1 {
+    width: 80px;
+    height: 80px;
+  }
+  .shape-2 {
+    width: 95px;
+    height: 95px;
+    right: -7%;
+  }
+  .shape-3 {
+    top: 25%;
+    left: 68%;
+    width: 70px;
+    height: 70px;
+  }
+  .shape-4 {
+    width: 95px;
+    height: 95px;
+    border: 12px solid #21e2ca4a;
+    top: 81%;
+    left: 52%;
+  }
+  .shape-5 {
+    top: 40%;
+    left: 46%;
+    width: 55px;
+    height: 55px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) {
+  .header-container {
+    flex-direction: column;
+    align-items: end;
+  }
+  .wave {
+    display: block;
+    width: 26rem;
+    right: 32%;
+    top: 37%;
+  }
+  .image-1 {
+    width: 164px;
+    height: 140px;
+  }
+  .slogan {
+    position: absolute;
+    font-size: 25px;
+    left: 25%;
+    width: 311px;
+    top: 10%;
+  }
+  .my-photo {
+    margin-top: 10%;
+    width: 184px;
+    height: 231px;
+  }
+  .name-container {
+    margin: 0 3% 0 0;
+  }
+  .name {
+    width: 215px;
+    font-size: 29px;
+  }
+  .job {
+    font-size: 14px;
+  }
+  .shape-1 {
+    left: 38%;
+  }
+  .shape-2 {
+    /* left: 76%; */
+  }
+  .shape-3 {
+    top: 23%;
+    left: 7%;
+    width: 80px;
+    height: 80px;
+    background-color: #21e2ca4a;
+    border: 0px;
+  }
+  .shape-4 {
+    width: 95px;
+    height: 95px;
+    border: 12px solid #21e2ca4a;
+    top: 81%;
+    left: 52%;
+  }
+  .shape-5 {
+    top: 40%;
+    left: 46%;
+    width: 55px;
+    height: 55px;
+  }
+}
